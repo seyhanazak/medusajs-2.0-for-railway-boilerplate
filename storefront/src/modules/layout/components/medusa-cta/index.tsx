@@ -17,6 +17,9 @@ const MedusaCTA = () => {
       </a>
     </Text>
     */
+    <Text className="flex gap-x-2 txt-compact-small-plus items-center">
+      Privacy
+    </Text>
   )
 }
 
