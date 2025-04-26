@@ -58,11 +58,8 @@ export default async function seedDemoData({ container }: ExecArgs) {
       update: {
         supported_currencies: [
           {
-            currency_code: "eur",
+            currency_code: "idr",
             is_default: true,
-          },
-          {
-            currency_code: "usd",
           },
         ],
         default_sales_channel_id: defaultSalesChannel[0].id,
@@ -74,8 +71,8 @@ export default async function seedDemoData({ container }: ExecArgs) {
     input: {
       regions: [
         {
-          name: "Europe",
-          currency_code: "eur",
+          name: "Indonesia",
+          currency_code: "idr",
           countries,
           payment_providers: ["pp_system_default"],
         },
